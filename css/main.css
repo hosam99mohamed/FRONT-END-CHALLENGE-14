@@ -1,0 +1,449 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Light-Pink: hsl(321, 100%, 78%);
+    --Light-Red: hsl(0, 100%, 63%);
+
+/* ### Neutral */
+
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Very-Pale-Blue: hsl(207, 100%, 98%);
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+.top .container {
+    height: 150vh;
+    padding: 36px 60px ;
+    margin-bottom: 150px;
+}
+.top .container nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.top .container nav img {
+    height: 26px;
+    width: auto;
+}
+.top .container nav button {
+    border: none;
+    outline: none;
+    background-color: white;
+    border: 2px solid var(--Light-Pink);
+    color: var(--Light-Pink);
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-weight: 900;
+    box-shadow: 0px 1px 4px rgba(0 , 0 , 0 , 0.16);
+}
+.top .container .main {
+    text-align: center;
+}
+.top .container .main .content {
+    flex: 1;
+}
+.top .container .main .content h1 {
+    font-size: 30px;
+    color: var(--Very-Dark-Cyan);
+    margin-bottom: 20px;
+}
+.top .container .main .content p {
+    width: 450px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #777;
+    margin-bottom: 30px;
+}
+.top .container .main .content button {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 17px 64px;
+    font-weight: 900;
+    box-shadow: 0px 1px 4px rgba(0 , 0 , 0 , 0.16);
+    background-color: var(--Pink);
+    color: white;
+    margin-bottom: 50px;
+}
+.top .container .main .main-image {
+    flex: 1;
+}
+.top .container .main .main-image img {
+    width: 50%;
+    margin-bottom: 50px;
+}
+.top .container .main .details {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.top .container .main .details div {
+    display: flex;
+    flex-direction: column;
+}
+.top .container .main .details img  {
+    width: 20px;
+}
+.top .container .main .details .one img {
+    margin-left: 35px;
+}
+.top .container .main .details span:first-of-type {
+    font-size: 40px;
+}
+.top .container .main .details span:last-of-type {
+    color: #b1a9a9;
+    font-size: 11px;
+
+
+
+
+}
+main .container {
+    padding: 100px 0px 200px ;
+    position: relative;
+}
+main .container .wave {
+    background-color: #f6fbff;
+    
+}
+main .container  .wave  .image-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/bg-section-top-desktop-1.svg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+main .container .wave .image-2 {
+    position: absolute;
+    top: 470px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/bg-section-bottom-desktop-1.svg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+main .container .wave .image-3 {
+    position: absolute;
+    bottom: 610px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/bg-section-bottom-desktop-1.svg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+main .container .wave .image-4 {
+    position: absolute;
+    bottom: 150px;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url(../images/bg-section-bottom-desktop-1.svg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+}
+main .container .box {
+    display: flex;
+    height: 400px;
+    margin-bottom: 45px;
+    padding: 55px 55px 55px 100px
+}
+main .container  .box .info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ main .container  .box .info h2 {
+    margin-bottom: 20px;
+ }
+ main .container  .box .info p {
+    color: #777;
+    width: 500px;
+    font-size: 15px;
+ }
+ main .container  .box .main-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+ }
+ main .container  .box:nth-child(2) .main-image {
+    justify-content: flex-start;
+ }
+ main .container  .box .main-image img {
+    height: 90%;
+ }
+ main .container .ready {
+    border-radius: 20px;
+    max-width: 600px;
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 100px;
+ }
+ .ready h2 {
+    margin-bottom: 30px;
+}
+.ready button {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 17px 64px;
+    font-weight: 900;
+    box-shadow: 0px 1px 4px rgba(0 , 0 , 0 , 0.16);
+    background-color: var(--Pink);
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+footer {
+    background-color: var(--Very-Dark-Cyan);
+    padding: 150px 70px 70px 70px;
+    font-size: 14px;
+    margin-top: 300px;
+}
+footer .container {
+    color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   position: relative;
+ }
+ footer .container .contact .logo img {
+    height: 26px;
+ }
+ footer .container .contact {
+    max-width: 350px;
+    width: 100%;
+ }
+ footer .container .contact p {
+     display: flex;
+     align-items: flex-start;
+     margin: 20px 0;
+     color: #c4c2c2;
+}
+footer .container .contact p img {
+    height: 14px;
+    margin-right: 20px;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+footer .container .news {
+    max-width: 350px;
+    width: 100%;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+footer .container .news h2 {
+    margin-bottom: 20px;
+    color: var(--Very-Pale-Blue);
+    opacity: 0.9;
+    text-transform: uppercase;
+}
+footer .container .news p {
+    margin-bottom: 30px;
+    color: #c4c2c2;
+    font-size: 13px;
+    line-height: 1.7;
+}
+footer .container .news input {
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    border-radius: 10px;
+    margin-right: 25px;
+}
+footer .container .news button {
+    border: none;
+    outline: none;
+    font-weight: 900;
+    box-shadow: 0px 1px 4px rgba(0 , 0 , 0 , 0.16);
+    background-color: var(--Pink);
+    color: white;
+    padding: 8px 17px;
+    border-radius: 5px;
+    font-size: 11px;
+}
+
+footer .social {
+    margin-top: 40px;
+}    
+footer .social a {
+    margin-right: 15px;
+    color: white;
+    opacity: 0.8;
+    display: inline-flex;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #c4c2c2;
+    border-radius: 50%;
+    text-decoration: none;
+    justify-content: center;
+ }
+ footer .image-1 {
+    position: absolute;
+    bottom: 375px;
+    left: -80px;
+    width: 121%;
+    height: 150px;
+    background: url(../images/bg-footer-top-mobile.svg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+ }
+
+
+
+ @media (max-width: 377px) {
+    .top .container {
+        padding: 20px;
+        margin-bottom: 0;
+    }
+    .top .container nav  img  {
+        height: 18px;
+    }
+     .top .container nav  button {
+        padding: 10px 20px;
+    }
+     .top  .container  .main  .content h1 {
+        font-size: 25px;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;    
+    }
+     .top .container  .main  .content p {
+        width: 300px;
+        margin-bottom: 40px;
+    }    
+    .top .container  .main  .content button {
+        margin-bottom: 60px;
+    }
+    .top .container  .main  .main-image {
+        margin-bottom: 100px;
+    }
+    .top .container  .main  .main-image img {
+        width: 80%;
+    }
+    .top .container  .main  .details {
+        display: flex;
+        flex-direction: column;
+    }
+    .top .container  .main  .details .one  {
+        margin-bottom: 100px;
+    }
+    .top .container  .main  .details .one img  {
+        margin-left: 5px;
+    }
+
+
+    main .container {
+        padding: 100px 0 200px;
+    }
+     main .container .info h2 {
+        margin-bottom: 20px;
+     }
+     main .container  .box:nth-child(2) {
+        flex-direction: column;
+        text-align: center;
+        height: 500px;
+        padding: 30px 20px;
+     }
+     main .container  .box:not(:nth-child(2)) {
+        flex-direction: column-reverse;
+        text-align: center;
+        height: 500px;
+        padding: 30px 20px;
+     }
+     main .container  .box .main-image img  {
+        height: auto;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+     main .container  .box  .info p {
+        width: 325px;
+        font-size: 13px;
+     }
+     main .container  .wave  .image-1 {
+        background: url(../images/bg-section-top-mobile-1.svg);
+     }
+     main .container  .wave  .image-2{
+        background: url(../images/bg-section-bottom-mobile-1.svg);
+        top: 545px;
+    }
+    main .container  .wave  .image-3 {
+        background: url(../images/bg-section-bottom-mobile-2.svg);
+        bottom: 730px;
+    }
+    main .container  .wave  .image-4 {
+        background: url(../images/bg-section-bottom-mobile-2.svg);   
+    }
+    main .container .ready {
+        padding: 20px;
+        text-align: center;
+    }
+    main .container .ready button {
+        box-shadow: 0px 1px 4px 3px rgba(0 , 0 , 0 , 0.16);
+    }
+    footer {
+        padding: 100px 70px 70px 70px;
+    }
+    footer .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    footer .container .image-1 {
+        background: url(../images/bg-footer-top-mobile.svg);
+        background-repeat: no-repeat;
+        bottom: 600px;
+        background-size: contain;
+        width: 165%;
+        height: 155px;
+    } 
+    footer .container .contact {
+        margin-right: 95px;
+    }
+    footer .container .news p {
+        width: 340px;
+        font-size: 14px;
+    }
+    footer .container  .news form input {
+        width: 330px;
+        padding: 15px 10px;
+        margin-bottom: 15px;
+    }
+    footer .container  .news form  button {  
+        margin-left: 185px;
+        padding: 10px 30px;
+        font-size: 15px;
+    }
+
+    footer  .social {
+        display: flex;
+        justify-content: space-evenly;
+    }
+ }
